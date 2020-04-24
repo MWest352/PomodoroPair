@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="todo.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  
+  <title>Pomodoro Timer</title>
+</head>
+<body>
+  <!-- Header -->
+  <div id="header">
+    <div>
+      <h1>Pomodoro Timer</h1>
+    </div>
+    
+  </div>
+
+
+
+  <div id = "container">
+    <div class="session">
+      <div id = "work" class = "box">
+        <div id = "workTimer">Work</div>
+        <input class = "button" id='wrk+' type=button value="+"/>
+        <input id='wrk-'type=button value="-"/>
+        <div id= "clock1">25</div>
+      </div>
+      <div id = "break" class = box>
+        <div id = "breakTimer">Break</div>
+        <input id='brk+' type=button value="+"/>
+        <input id='brk-' type=button value="-"/>
+        <div id= "clock2">5</div>
+      </div>
+    </div>
+    <div id="timer"></div>
+    
+  </div>
+
+  <div class="timer-buttons">
+    <button class="start-timer">Start</button>
+    <button class="stop-timer">Stop</button>
+  </div>
+
+ 
+
+<!-- Footer -->
+<div id="footer">
+  <div class="signature n">Created by Matt West & Josiah</div>
+</div>
+
+<script src = "main.js"></script>
+<script src="todo.js"></script>
+</body>
+</html>

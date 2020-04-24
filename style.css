@@ -1,0 +1,132 @@
+body {
+  background-image: url("https://s3-eu-west-1.amazonaws.com/images.linnlive.com/46f002540b02bbcc49ff64da6bbb6eee/c4d664f9-1770-43db-a29c-6b3097b1c14f.jpg");
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+} 
+
+#header {
+  
+  text-align: center;
+  background:rgba(1, 128, 1, 0.8);
+  height: 25vh;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+#container {
+  
+  text-align: center;
+  background: rgba(136, 136, 136, 0.329);
+  border: 5px solid red;
+  border-radius: 200px;
+  height: 250px;
+  width: 750px;
+  margin: 20px auto;
+}
+
+
+
+#timer {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 64pt;
+}
+
+.box {
+  width: 250px;
+  height:100px;
+  display: inline-block;
+}
+
+#work {
+  margin:15px auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.349);
+  border: 5px solid tomato;
+  border-radius: 5px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 18px;
+}
+
+
+#clock1 {
+  font-size: 35px;
+}
+
+#break{
+  margin:5px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.349);
+  border: 5px solid tomato;
+  border-radius: 5px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 18px;
+}
+
+#clock2{
+  font-size: 35px;
+}
+
+.timer-buttons{
+  text-align: center;
+}
+
+.start-timer{
+  background: rgb(1, 128, 1) ;
+  border: solid white;
+  color: white;
+  font-size: 16pt;
+  font-family: 'Permanent Marker', cursive ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.start-timer:hover{
+  background: rgb(0, 93, 0);
+}
+
+.start-timer:active{
+  background: rgb(0, 93, 0);
+  transform: translateY(2px);
+}
+
+.start-timer:focus{
+  outline: none;
+}
+
+.stop-timer{
+  background:rgb(255,40,0);
+  border: solid white;
+  color: white;
+  font-size: 16pt;
+  font-family: 'Permanent Marker', cursive;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.stop-timer:hover {
+  background: rgb(148, 22, 0);
+}
+
+.stop-timer:active {
+  background: rgb(148, 22, 0);
+  transform: translateY(2px);
+}
+
+.stop-timer:focus{
+  outline: none;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25vh;
+  background:rgba(255, 38, 0, 0.85);
+  font-family: 'Permanent Marker', cursive;
+}
+
+.signature{
+  position: fixed;
+  left: 1;
+  bottom: 0;
+  font-size: 20px;
+}
